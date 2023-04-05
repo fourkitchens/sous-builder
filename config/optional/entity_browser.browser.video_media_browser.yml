@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_entity_browsers
+  module:
+    - entity_browser_entity_form
+    - views
+name: video_media_browser
+label: 'Video Media Browser'
+display: modal
+display_configuration:
+  width: '850'
+  height: ''
+  link_text: 'Select Videos'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  7e8d82b8-9f89-4f95-8e8c-cd640a91ae1e:
+    settings:
+      view: media_entity_browsers
+      view_display: video_media_browser
+      submit_text: 'Select Videos'
+      auto_select: false
+    uuid: 7e8d82b8-9f89-4f95-8e8c-cd640a91ae1e
+    weight: 1
+    label: 'Video Library'
+    id: view
+  4e152bf3-28dc-4359-bccd-34ac9a0bfddf:
+    settings:
+      entity_type: media
+      bundle: video
+      form_mode: default
+      submit_text: 'Save Video'
+    uuid: 4e152bf3-28dc-4359-bccd-34ac9a0bfddf
+    weight: 2
+    label: 'Add New Video'
+    id: entity_form

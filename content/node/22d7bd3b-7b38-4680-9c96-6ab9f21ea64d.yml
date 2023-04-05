@@ -1,0 +1,79 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 22d7bd3b-7b38-4680-9c96-6ab9f21ea64d
+  bundle: page
+  default_langcode: en
+  depends:
+    d0b3f933-89d4-46e3-8089-2f97df5970bb: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Default components from Compound'
+  created:
+    -
+      value: 1680693970
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /default-components
+      langcode: en
+      pathauto: 0
+  field_content_body:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 6eb32346-db79-4da7-a882-9dfb848c19be
+          bundle: text_with_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1680694010
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_media:
+            -
+              entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
+          field_media_alignment:
+            -
+              value: left
+          field_text:
+            -
+              value: "<p>This is a Text with Media component.</p>\r\n"
+              format: restricted_html
+  field_seo_title:
+    -
+      value: 'Default components from Compound'
+  field_teaser_media:
+    -
+      entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
+  field_teaser_text:
+    -
+      value: 'Text with Media'

@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 41ccba0a-ce74-4768-a5cb-c3786c1bce6b
+  bundle: frontpage
+  default_langcode: en
+  depends:
+    d0b3f933-89d4-46e3-8089-2f97df5970bb: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1680693718
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /home
+      langcode: en
+      pathauto: 1
+  field_seo_title:
+    -
+      value: Home
+  field_teaser_media:
+    -
+      entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
+  field_teaser_text:
+    -
+      value: 'Welcome to your Drupal project featuring Emulsify!'

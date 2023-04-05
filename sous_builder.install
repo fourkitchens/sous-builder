@@ -1,0 +1,16 @@
+<?php
+
+/**
+* Implements hook_install().
+*
+* @see system_install()
+*/
+function sous_builder_install() {
+
+// Set the front page.
+\Drupal::configFactory()
+  ->getEditable('system.site')
+  ->set('page.front', '/home')
+  ->save(TRUE);
+
+}

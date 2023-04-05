@@ -1,0 +1,10 @@
+{
+  "name": "fourkitchens/sous-builder",
+  "description": "A builder module for Sous drupal project.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/default_content": "^2"
+  }
+}
