@@ -9,8 +9,6 @@ dependencies:
   - blazy:blazy
   - ckeditor_browser_context_menu:ckeditor_browser_context_menu
   - components:components
-  - crop:crop
-  - ctools:ctools
   - default_content:default_content
   - dropzonejs:dropzonejs
   - dropzonejs:dropzonejs_eb_widget
