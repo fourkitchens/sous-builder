@@ -20,8 +20,6 @@ dependencies:
   - entity_embed:entity_embed
   - entity_usage:entity_usage
   - field_group:field_group
-  - focal_point:focal_point
-  - improve_line_breaks_filter:improve_line_breaks_filter
   - libraries:libraries
   - linkit:linkit
   - login_history:login_history
