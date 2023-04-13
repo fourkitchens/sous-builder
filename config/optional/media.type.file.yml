@@ -1,12 +1,6 @@
 uuid: b6a1cb9d-8113-475f-a502-2e33d463b4b4
 langcode: en
 status: true
-dependencies:
-  module:
-    - crop
-third_party_settings:
-  crop:
-    image_field: _none
 id: file
 label: File
 description: ''
