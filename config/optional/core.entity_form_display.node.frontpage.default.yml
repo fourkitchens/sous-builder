@@ -1,4 +1,3 @@
-uuid: a3110b36-126d-44e0-b5b9-b4ef4b90e948
 langcode: en
 status: true
 dependencies:
@@ -57,8 +56,6 @@ third_party_settings:
         formatter: closed
         description: 'These fields are used for metadata purposes internally and externally. They will allow for more control over displays for search engines and social media sharing tools.'
         required_fields: true
-_core:
-  default_config_hash: noDBHdRuh0rZ0DuoM-ClHRow9n2Wl0ixDv2jHZfccb8
 id: node.frontpage.default
 targetEntityType: node
 bundle: frontpage

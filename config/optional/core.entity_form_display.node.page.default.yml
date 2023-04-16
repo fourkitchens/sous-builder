@@ -1,4 +1,3 @@
-uuid: f91f8d9a-8038-44bf-ad85-0c16983bd38b
 langcode: en
 status: true
 dependencies:
@@ -15,8 +14,6 @@ dependencies:
     - media_library
     - metatag
     - path
-_core:
-  default_config_hash: d7yDmmgAICJFu5B21ZxKSTapok5TCLdHnQY_G1qrQK4
 id: node.page.default
 targetEntityType: node
 bundle: page
