@@ -12,8 +12,11 @@ dependencies:
     - node.type.page
   module:
     - inline_entity_form
+    - media_library
     - metatag
     - path
+_core:
+  default_config_hash: d7yDmmgAICJFu5B21ZxKSTapok5TCLdHnQY_G1qrQK4
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -70,14 +73,11 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_teaser_media:
-    type: entity_reference_autocomplete
+    type: media_library_widget
     weight: 2
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
   field_teaser_text:
     type: string_textarea

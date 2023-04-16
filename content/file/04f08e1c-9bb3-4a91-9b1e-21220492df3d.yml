@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04f08e1c-9bb3-4a91-9b1e-21220492df3d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 3udSaSt3oPpKL5PzZGw7MrHW4uULoYqDqpx5Z44NdK4.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/3udSaSt3oPpKL5PzZGw7MrHW4uULoYqDqpx5Z44NdK4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 17187
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1681662410
