@@ -2,13 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - entity_browser.browser.image_video_media_browser
     - field.field.paragraph.text_with_media.field_media
     - field.field.paragraph.text_with_media.field_media_alignment
     - field.field.paragraph.text_with_media.field_text
     - paragraphs.paragraphs_type.text_with_media
   module:
-    - entity_browser
+    - media_library
     - text
 id: paragraph.text_with_media.default
 targetEntityType: paragraph
@@ -16,34 +15,26 @@ bundle: text_with_media
 mode: default
 content:
   field_media:
-    type: entity_browser_entity_reference
+    type: media_library_widget
     weight: 1
     region: content
     settings:
-      entity_browser: image_video_media_browser
-      field_widget_display: rendered_entity
-      field_widget_display_settings:
-        view_mode: preview
-      field_widget_edit: true
-      field_widget_remove: true
-      open: true
-      selection_mode: selection_append
-      field_widget_replace: false
+      media_types: {  }
     third_party_settings: {  }
   field_media_alignment:
+    type: options_select
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   field_text:
+    type: text_textarea
     weight: 0
+    region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
-    region: content
 hidden:
   created: true
   status: true

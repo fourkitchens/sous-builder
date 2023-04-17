@@ -2,29 +2,34 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.media_library
     - field.field.media.file.field_description
     - field.field.media.file.field_media_file
     - field.field.media.file.field_tags
+    - image.style.medium
     - media.type.file
   module:
-    - file
-id: media.file.default
+    - image
+id: media.file.media_library
 targetEntityType: media
 bundle: file
-mode: default
+mode: media_library
 content:
-  field_media_file:
-    label: visually_hidden
-    weight: 0
+  thumbnail:
+    type: image
+    label: hidden
     settings:
-      use_description_as_link_text: true
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-    type: file_default
+    weight: 0
     region: content
 hidden:
   created: true
   field_description: true
+  field_media_file: true
   field_tags: true
   name: true
-  thumbnail: true
   uid: true

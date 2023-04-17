@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: file
-  uuid: e2761742-c7c1-46c2-a66d-1a01787a4a0e
+  uuid: 16c8b802-4421-4445-95ce-c42d575b112d
   default_langcode: en
 default:
   uid:
@@ -9,19 +9,19 @@ default:
       target_id: 1
   filename:
     -
-      value: sous.png
+      value: logo.png
   uri:
     -
-      value: 'public://2023-04/sous_3.png'
+      value: 'public://2023-04/logo.png'
   filemime:
     -
       value: image/png
   filesize:
     -
-      value: 18091
+      value: 335111
   status:
     -
       value: true
   created:
     -
-      value: 1680693799
+      value: 1681661984
