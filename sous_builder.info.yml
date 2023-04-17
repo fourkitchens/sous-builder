@@ -3,3 +3,15 @@ description: Provides default content and config to sous.
 package: Sous
 type: module
 core_version_requirement: ^9 || ^10
+dependencies:
+  - components:components
+  - default_content:default_content
+  - field_group:field_group
+  - media_library:media_library
+  - paragraphs:paragraphs
+  - paragraphs_collapsible:paragraphs_collapsible
+  - paragraphs_features:paragraphs_features
+  - paragraphs_ee:paragraphs_ee
+  - pathauto:pathauto
+  - twig_tweak:twig_tweak
+  - emulsify_twig:emulsify_twig

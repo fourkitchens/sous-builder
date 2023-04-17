@@ -30,6 +30,9 @@ default:
   sticky:
     -
       value: false
+  revision_translation_affected:
+    -
+      value: true
   path:
     -
       alias: /default-components
@@ -54,6 +57,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_text:
             -
               value: "<p>Morbi ac libero suscipit, molestie lacus nec, dapibus mauris. Praesent id orci id risus commodo sagittis a quis lorem. Nulla ut felis ac urna venenatis ultricies. Duis vestibulum, tortor in sagittis tempor, eros ipsum vehicula urna, vel facilisis purus nibh ut leo. Morbi nec lacus in purus suscipit fermentum eu ac nisl. Suspendisse lacinia vel nisi eu venenatis. Praesent ac tellus quis justo congue ullamcorper. Nulla facilisi.</p>\r\n"
@@ -76,6 +82,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_image:
             -
               entity: 421ea93c-bd8e-40ad-b8fc-ba3580265ec0
@@ -97,6 +106,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_text:
             -
               value: "<p>Nam nec enim eu metus bibendum aliquam. Donec at mi vitae leo fermentum fringilla. Quisque eget urna non nulla varius sodales. Nulla eu felis semper, bibendum arcu nec, dignissim urna. Sed non diam non metus venenatis vestibulum. Ut auctor lacinia turpis, nec ultrices libero faucibus vel.</p>\r\n"
@@ -119,6 +131,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_video:
             -
               entity: 35ee11c6-605c-47bb-bc38-7a451cc721d3
@@ -140,6 +155,9 @@ default:
           behavior_settings:
             -
               value: {  }
+          revision_translation_affected:
+            -
+              value: true
           field_media:
             -
               entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
