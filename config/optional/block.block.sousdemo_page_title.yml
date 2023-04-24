@@ -9,7 +9,7 @@ _core:
 id: sousdemo_page_title
 theme: sousdemo
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: page_title_block
 settings:

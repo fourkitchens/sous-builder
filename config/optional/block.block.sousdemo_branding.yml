@@ -11,7 +11,7 @@ _core:
 id: sousdemo_branding
 theme: sousdemo
 region: header
-weight: -4
+weight: -3
 provider: null
 plugin: system_branding_block
 settings:

@@ -11,7 +11,7 @@ dependencies:
 id: mainnavigation
 theme: sousdemo
 region: header
-weight: -3
+weight: -2
 provider: null
 plugin: 'menu_block:main'
 settings:
