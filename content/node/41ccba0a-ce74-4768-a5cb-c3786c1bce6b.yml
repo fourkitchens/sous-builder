@@ -18,7 +18,7 @@ default:
       target_id: 1
   title:
     -
-      value: Home
+      value: Welcome to your Drupal project featuring Emulsify!
   created:
     -
       value: 1680693718
@@ -66,11 +66,11 @@ default:
               value: left
           field_text:
             -
-              value: '<p>Welcome to your Drupal project featuring Emulsify!</p>'
+              value: '<p>The Sous Demo has been installed and is available for you to browse, modify, or fork for your own project. It includes:</p><ul><li><strong>Sous Builder</strong> contrib module with basic configuration for a frontpage and basic page content, simple paragraphs architecture, and some block layout config that sets up our general page template.</li><li></strong>Sous Demo</strong> custom theme generated from EmulsifyCLI. It contains pre-wired templates as well as components install from the <a href="https://github.com/emulsify-ds/compound/">Compound component library</a>&nbsp;</li></ul><p>If you'd like to modify the sousdemo custom theme run the following commands to get it's storybook instance up and running</p><ul><li>cd web/themes/contrib/sousdemo</li><li>nvm use</li><li>npm run develop</li></ul>'
               format: basic_html
   field_seo_title:
     -
-      value: Home
+      value: Welcome to your Drupal project featuring Emulsify!
   field_teaser_media:
     -
       entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
