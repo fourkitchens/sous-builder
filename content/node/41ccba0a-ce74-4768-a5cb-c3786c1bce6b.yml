@@ -36,6 +36,38 @@ default:
       alias: /home
       langcode: en
       pathauto: 1
+  field_content_body:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4181750e-f09e-4a08-ba17-fc18a3379141
+          bundle: text_with_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1682262223
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_media:
+            -
+              entity: d0b3f933-89d4-46e3-8089-2f97df5970bb
+          field_media_alignment:
+            -
+              value: left
+          field_text:
+            -
+              value: '<p>Welcome to your Drupal project featuring Emulsify!</p>'
+              format: basic_html
   field_seo_title:
     -
       value: Home
