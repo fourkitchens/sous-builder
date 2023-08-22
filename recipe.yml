@@ -3,6 +3,7 @@ description: 'A builder recipe for Sous drupal project.'
 type: 'Site'
 
 install:
+  - allowed_formats
   - field
   - field_group
   - file
@@ -12,18 +13,18 @@ install:
   - media_library
   - menu_ui
   - metatag
-  - node
   - options
   - paragraphs
   - paragraphs_ee
   - paragraphs_features
-  - path
   - taxonomy
   - text
+  - user
   - views
   - views_ui
 config:
   import:
+    allowed_formats: '*'
     field: '*'
     file: '*'
     image: '*'
@@ -31,8 +32,9 @@ config:
     media: '*'
     media_library: '*'
     metatag: '*'
-    node: '*'
     paragraphs: '*'
-    path: '*'
     taxonomy: '*'
     text: '*'
+    user:
+      - user.role.superuser
+      - views.view.user_admin_people
