@@ -1,0 +1,31 @@
+name: 'Sous Builder'
+description: 'A builder recipe for Sous drupal project.'
+type: 'Site'
+
+install:
+  - field
+  - file
+  - image
+  - media
+  - media_library
+  - node
+  - paragraph
+  - path
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_ui
+config:
+  import:
+    field: '*'
+    file: '*'
+    image: '*'
+    media: '*'
+    media_library: '*'
+    node: '*'
+    paragraph: '*'
+    path: '*'
+    taxonomy: '*'
+    text: '*'
+    user: '*'
