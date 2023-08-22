@@ -6,14 +6,15 @@ install:
   - field
   - file
   - image
+  - link
   - media
   - media_library
+  - metatag
   - node
   - paragraphs
   - path
   - taxonomy
   - text
-  - user
   - views
   - views_ui
 config:
@@ -21,11 +22,12 @@ config:
     field: '*'
     file: '*'
     image: '*'
+    link: '*'
     media: '*'
     media_library: '*'
+    metatag: '*'
     node: '*'
     paragraphs: '*'
     path: '*'
     taxonomy: '*'
     text: '*'
-    user: '*'

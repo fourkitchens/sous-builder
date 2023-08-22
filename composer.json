@@ -6,6 +6,8 @@
   "minimum-stability": "dev",
   "require": {
     "drupal/default_content": "^2",
-    "drupal/paragraphs": "^1.15"
+    "drupal/metatag": "1.x-dev",
+    "drupal/paragraphs": "^1.15",
+    "drupal/paragraphs_ee": "^1.7"
   }
 }
