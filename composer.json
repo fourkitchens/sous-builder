@@ -8,6 +8,6 @@
     "drupal/default_content": "^2",
     "drupal/metatag": "^2.0",
     "drupal/paragraphs": "^1.15",
-    "drupal/paragraphs_ee": "^1.7"
+    "drupal/paragraphs_ee": "^10.0"
   }
 }
