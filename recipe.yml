@@ -4,14 +4,19 @@ type: 'Site'
 
 install:
   - field
+  - field_group
   - file
   - image
   - link
   - media
   - media_library
+  - menu_ui
   - metatag
   - node
+  - options
   - paragraphs
+  - paragraphs_ee
+  - paragraphs_features
   - path
   - taxonomy
   - text
