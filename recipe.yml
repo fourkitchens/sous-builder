@@ -9,7 +9,7 @@ install:
   - media
   - media_library
   - node
-  - paragraph
+  - paragraphs
   - path
   - taxonomy
   - text
@@ -24,7 +24,7 @@ config:
     media: '*'
     media_library: '*'
     node: '*'
-    paragraph: '*'
+    paragraphs: '*'
     path: '*'
     taxonomy: '*'
     text: '*'
