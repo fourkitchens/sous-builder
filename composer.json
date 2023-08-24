@@ -1,10 +1,13 @@
 {
   "name": "fourkitchens/sous-builder",
-  "description": "A builder module for Sous drupal project.",
-  "type": "drupal-module",
+  "description": "A builder recipe for Sous drupal project.",
+  "type": "drupal-recipe",
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "require": {
-    "drupal/default_content": "^2"
+    "drupal/default_content": "^2",
+    "drupal/metatag": "^2.0",
+    "drupal/paragraphs": "^1.15",
+    "drupal/paragraphs_ee": "^10.0"
   }
 }
