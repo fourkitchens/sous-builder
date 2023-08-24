@@ -2,6 +2,8 @@ name: 'Sous Builder'
 description: 'A builder recipe for Sous drupal project.'
 type: 'Site'
 
+recipes:
+  - sous_base
 install:
   - allowed_formats
   - field
@@ -17,6 +19,7 @@ install:
   - paragraphs
   - paragraphs_ee
   - paragraphs_features
+  - path
   - taxonomy
   - text
   - user
